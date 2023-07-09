@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Poppins:wght@100;200;400;700&family=Roboto:wght@100;400;700&display=swap");
+
+
+.form-error{
+  color: red;
+  font-weight: 400;
+}
+.modal-wrapper{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(189,189,189,0.9);
+  }
+  
+  .modal-container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    max-width: 200rem;
+    max-height: 200rem;
+    background-color: #c6d9f1;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+  }
+  
+
+  
